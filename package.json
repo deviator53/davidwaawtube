@@ -1,0 +1,35 @@
+{
+  "name": "waawtube",
+  "version": "1.0.0",
+  "description": "Video Streaming Application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deviator53/davidwaawtube.git"
+  },
+  "author": "Bradford",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deviator53/davidwaawtube/issues"
+  },
+  "homepage": "https://github.com/deviator53/davidwaawtube#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^4.5.0",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "moment": "^2.29.1",
+    "mongoose": "^6.0.5",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.12",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0"
+  }
+}

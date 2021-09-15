@@ -1,0 +1,48 @@
+<%- include('../partials/head')-%>
+
+<div class="register-container">
+    <div>
+        <h3>Welcome To WaawTube</h3>
+        <p>Create Your Account</p>
+
+        <form action="/auth/register" method="POST">
+            <div>
+                <label for="">Username</label>
+                <input type="text" name="username" id="" placeholder="" required>
+            </div>
+
+            <div>
+                <label for="">Email</label>
+                <input type="email" name="email" id="" placeholder="" required>
+            </div>
+
+            <div>
+                <label for="">Date of Birth</label>
+                <input type="date" name="date" id="" placeholder="" required>
+            </div>
+
+            <div>
+                <label for="">Password</label>
+                <input type="password" name="password" id="" placeholder="" required>
+            </div>
+
+            <div>
+                <label for="">Confirm Password</label>
+                <input type="password" name="confirmPassword" id="" placeholder="" required>
+            </div>
+
+            <p> Already Have an Account?<a href="/auth/login">Login</a></p>
+
+            
+                <button type="submit">CONTINUE</button>
+
+
+        
+        </form>
+    </div>
+</div>
+
+
+
+
+<%- include('../partials/foot') -%>
